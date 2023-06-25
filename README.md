@@ -1,3 +1,4 @@
+[![wakatime](https://wakatime.com/badge/user/d4f21e3d-6c5a-4463-b163-cc751fd58542/project/ce610e6b-ebc3-459d-8dbe-f14b263f2edb.svg)](https://wakatime.com/badge/user/d4f21e3d-6c5a-4463-b163-cc751fd58542/project/ce610e6b-ebc3-459d-8dbe-f14b263f2edb)
 # Quizit
 
 Quizit👀 is a Flutter-based mobile application that allows users to complete quizzes and receive a certificate upon completing all the quizzes. The app utilizes Firebase for user authentication and storage, making it easy to track user progress and send completion emails with certificates.
