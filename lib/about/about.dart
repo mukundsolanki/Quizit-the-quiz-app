@@ -41,7 +41,7 @@ class AboutScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 10, 1, 24),
-        title: const Text('ABOUT'),
+        title: const Text('About'),
         centerTitle: true,
       ),
       body: Container(
@@ -51,11 +51,11 @@ class AboutScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-            'assets/login_logo.png',
-            // width: 300, // adjust the width as needed
-            // height: 300, // adjust the height as needed
-          ),
-          // SizedBox(height: 20),
+              'assets/login_logo.png',
+              // width: 300,
+              // height: 300,
+            ),
+            // SizedBox(height: 20),
             const Text(
               'QUIZIT is a quiz app created using Flutter and Firebase.',
               style: TextStyle(fontSize: 18),
@@ -68,12 +68,26 @@ class AboutScreen extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 20),
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                primary: Colors.black,
+            Container(
+              width: 150,
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.black,
+                ),
+                onPressed: _launchGitHubURL,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    
+                    const SizedBox(width: 5),
+                    const Text('Visit GitHub'),
+                    const Icon(
+                      Icons.open_in_new,
+                      size: 18,
+                    ),
+                  ],
+                ),
               ),
-              onPressed: _launchGitHubURL,
-              child: const Text('Visit GitHub'),
             ),
           ],
         ),
