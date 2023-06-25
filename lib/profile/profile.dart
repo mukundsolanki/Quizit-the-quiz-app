@@ -114,6 +114,7 @@ Widget build(BuildContext context) {
                 ),
               ),
             ),
+            Text(user.displayName ?? '', style: Theme.of(context).textTheme.titleLarge),
             Text(user.email ?? '', style: Theme.of(context).textTheme.titleLarge),
             const Spacer(),
             Text('${report.total}', style: Theme.of(context).textTheme.displayMedium),
