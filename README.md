@@ -11,6 +11,9 @@ Quizit👀 is a Flutter-based mobile application that allows users to complete q
 - Certificate generation⚙️: Once the user completes all the quizzes, an email is sent to them with a certificate attached.
 - Firebase integration🔥: Firebase is used for user authentication, storing quiz data, and sending completion emails.
 
+## Download:
+   You can Download and test the app from here: [HERE](https://drive.google.com/file/d/1y-10pblS_sdidJVJ1f40It9HkHfoOE-z/view?usp=sharing)
+
 ## Installation👨‍💻:
 
 1. Clone the repository:
