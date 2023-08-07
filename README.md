@@ -15,10 +15,6 @@ Quizit👀 is a Flutter-based mobile application that allows users to complete q
 ## Download:
    You can Download and test the app from here: [HERE](https://github.com/mukundsolanki/Quizit-the-quiz-app/releases)
 
-## Screenshots:
-![20230626_113253](https://github.com/mukundsolanki/Quizit-the-quiz-app/assets/114515612/d1057d09-5403-468a-b454-2fd61a8d8a5e)
-![20230626_113851](https://github.com/mukundsolanki/Quizit-the-quiz-app/assets/114515612/414778ce-81d8-4981-8c17-623c5ac6dfb3)
-
 ## Installation👨‍💻:
 
 1. Clone the repository:
