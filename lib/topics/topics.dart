@@ -37,7 +37,7 @@ class TopicsScreen extends StatelessWidget {
               primary: false,
               padding: const EdgeInsets.all(20.0),
               crossAxisSpacing: 10.0,
-              crossAxisCount: 2,
+              crossAxisCount: 1,
               children: topics.map((topic) => TopicItem(topic: topic)).toList(),
             ),
             bottomNavigationBar: const BottomNavBar(),
